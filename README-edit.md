@@ -1,3 +1,4 @@
 # thb58e.github.io
 # hello world
-this is my first attemp
+My name is THB58, I am not disclosing my real name here, not because I want to lie, but because
+being total honest.
