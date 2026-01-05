@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weekly Gaming Time Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="app__header">
+        <div>
+          <p class="eyebrow">Family Screen Time</p>
+          <h1>Weekly Gaming Time Tracker</h1>
+          <p class="subhead">60 minutes total per week</p>
+        </div>
+        <div class="week-info">
+          <p class="label">Week of</p>
+          <p id="week-range" class="value">—</p>
+        </div>
+      </header>
+
+      <section class="card timer-card">
+        <div class="timer-card__info">
+          <div>
+            <p class="label">Time remaining</p>
+            <p id="time-remaining" class="time">60:00</p>
+          </div>
+          <div>
+            <p class="label">Time used</p>
+            <p id="time-used" class="time">00:00</p>
+          </div>
+        </div>
+        <div class="progress">
+          <div id="progress-bar" class="progress__bar"></div>
+        </div>
+        <div class="actions">
+          <button id="toggle-session" class="primary">Start session</button>
+          <button id="reset-week" class="ghost">Reset week</button>
+        </div>
+        <p id="status" class="status">Not currently gaming.</p>
+      </section>
+
+      <section class="card">
+        <h2>Session history</h2>
+        <ul id="session-list" class="sessions"></ul>
+      </section>
+
+      <section class="tips">
+        <h3>Helpful ideas</h3>
+        <ul>
+          <li>Pause the timer during breaks or meals.</li>
+          <li>Review the history together every Sunday.</li>
+          <li>Reset the week if you plan a special gaming event.</li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
